@@ -9,6 +9,8 @@ export interface FormFieldConfig {
   placeholder?: string
   icon?: LucideIcon
   required?: boolean
+  colSpan?:number
+
 }
 
 interface FormFieldProps {
